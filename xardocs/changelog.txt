@@ -1,0 +1,17 @@
+
+Version 1.0.0 : 2010-03-01 by 2skies.com (jojodee)
+=========================
+- update overview
+- add xarigami specific menu links changes
+- Fix for better authentication and appropriate error messages when user not active 
+
+Version 0.1.1: 2006-07-11  by jojodee 
+=========================
+Update with overview and information
+
+- 
+Version 0.1.0 and prior by Roger Keays
+=========================
+First takes on email authentication
+
+
