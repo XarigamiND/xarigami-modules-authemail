@@ -36,7 +36,7 @@ function authemail_delete()
     /* remove from authentication list */
     $authModules = array_filter(
             xarConfigGetVar('Site.User.AuthenticationModules'),
-            create_function('$a', 'return $a != "authemail";'));
+            function($a) { return $a != "authemail"; });
     xarConfigSetVar('Site.User.AuthenticationModules', $authModules);
 
     return true;
